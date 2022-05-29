@@ -1,0 +1,28 @@
+#items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+
+}
+#items>div>img{
+    height: 300px;
+    width: 300px;
+}
+#items>div{
+    gap: 20px;
+
+}
+#navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    background-color: aquamarine;
+    gap: 40px;
+    
+}
+a{
+    text-align: left;
+    text-decoration: none;
+    gap: 40px;
+
+}
